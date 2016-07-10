@@ -1,18 +1,19 @@
-<p>
-	Здесь располагается вступительная часть об авторах. Пишется, какие они молодцы, но в серьёзном стиле, без преувеличений. Здесь располагается вступительная часть об авторах. Пишется, какие они молодцы, но в серьёзном стиле, без преувеличений.
-</p>
-
 <?php
 
 require_once 'scripts/connect.php';
 
 $lang        = $_SESSION['lang'];
-$get_authors = mysql_query("SELECT name_{$lang}, text_{$lang}, photo FROM authors");
+$get_authors = mysql_query("SELECT id, name_{$lang}, text_{$lang}, photo FROM authors");
 
 while ($author = mysql_fetch_array($get_authors)) {
 
-	$name  = $author[0];
-	$text  = $author[1];
+	if ($author['id'] == 1) {
+		echo $author[2];
+		continue;
+	}
+
+	$name  = $author[1];
+	$text  = $author[2];
 	$photo = $author['photo'];
 
 	echo <<<HTML
