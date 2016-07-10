@@ -29,6 +29,7 @@ build/Release
 # Dependency directories
 node_modules
 jspm_packages
+dist
 
 # Optional npm cache directory
 .npm
@@ -36,6 +37,12 @@ jspm_packages
 # Optional REPL history
 .node_repl_history
 
-node_modules/
-dist/
+# Preferences file
 app/scripts/connect.php
+
+# Conpilled files
+app/css/libs.min.css
+app/css/style.css
+app/css/home.css
+app/js/libs.min.js
+app/js/main.min.js
