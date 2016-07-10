@@ -1,0 +1,19 @@
+<svg id="skype.svg" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c67200;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #373028;
+      }
+    </style>
+  </defs>
+  <path id="orange" class="cls-1" d="M472,80v1h-1v1h-6V81h-3V80h-1V79h-1V78h-1V73h-1V71h1V69h2V68h3v1h5v1h1v1h1v2h1v4h1v3h-1Zm-3-4h-1V75h-2V74h-2V73h3v1h2V72h-1V71h-5v1h-1v3h1v1h3v1h1v1h-2V77h-3v1h1v1h6V76Z" transform="translate(-457 -67)"/>
+  <path id="brown" class="cls-2" d="M473,81v1h-1v1h-1v1h-5V83h-2V82h-3V81h-1V80h-1V79h-1V75h-1V70h1V69h1v2h-1v2h1v5h1v1h1v1h1v1h3v1h6V81h1V80h1V77h-1V73h-1V71h-1V70h-1V69h-5V68h-3v1h-2V68h1V67h5v1h1V67h3v1h1v1h1v1h1v2h1v3h1v6h-1ZM463,71h5v1h1v2h-2V73h-3v1h2v1h2v1h1v3h-6V78h-1V77h3v1h2V77h-1V76h-3V75h-1V72h1V71Z" transform="translate(-457 -67)"/>
+</svg>

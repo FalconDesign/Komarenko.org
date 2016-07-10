@@ -1,0 +1,26 @@
+@import variables
+@import functions
+
+.right-col
+	.wrapper
+		.about-wrapper
+
+			.two-cols
+				display: flex
+				align-items: center
+				@media #{$mobile}
+					flex-direction: column
+
+				img
+					width: 50%
+					object-fit: cover
+					@media #{$mobile}
+						width: 100%
+
+				.right-col
+					padding-left: 10px
+					width: 50%
+					box-sizing: border-box
+					@media #{$mobile}
+						width: 100%
+						padding: 0

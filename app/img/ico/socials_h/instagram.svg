@@ -1,0 +1,29 @@
+<svg id="instagram.svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2c2c2c;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #262524;
+      }
+
+      .cls-3 {
+        fill: #c67200;
+      }
+
+      .cls-4 {
+        fill: #3e362f;
+      }
+    </style>
+  </defs>
+  <path id="border" class="cls-1" d="M570,91v2h-1v10h-1v1h1v7h-5v1h-5v-1h-5v1H544v-2h-1v-1h-1v-2h1v-1h-1v-3h1V99h-1V95h1V93h-1V88h1V85h9V84h4v1h10v1h2v1h2v1h-1v3h1Zm-3,14V88h-1V87H546v1h-1v8h-1v4h1V96h1v10h1v1h19v1h-4v1H551v-1h-3v1h-2v-2h-1v-3h-1v3h1v2h1v1h16v-1h5v-3h1v-1h-1Z" transform="translate(-542 -84)"/>
+  <path id="stroke" class="cls-2" d="M565,94h1v7h1v3h-1v4h-4v1H551v-1h-3v1h-2v-2h-1v-3h-1v-4h1V96h1v10h1v1h17v-2h1V96h-2v6h-1v1h-1v1h-1v1h-2v1h-5v-1h-2v-1h-1v-1h-1v-1h-1v-2h-1V96h-1V95h3v6h1v1h1v1h2v1h3v1h1v-1h1v-1h2v-1h1v-1h-2v1h-1v1h-5v-1h-2v-1h-1V94h1V93h2V92h5v1h2v1h1v4h1V95h1V94h2Zm-5,3h-1V95h-1V94h-1V93h-3v1h-1v1h-1v1h-1v3h1v2h2v1h3v-1h1v-1h1V98h1V97Zm0-6h-1V89h1V88h1V87h3v1h2v2h1v1h-1v2h-6V91Zm1-1v2h4V89h-4v1Z" transform="translate(-542 -84)"/>
+  <path id="icon" class="cls-3" d="M564,105v2H547v-1h-1V96h1v4h1v2h1v1h1v1h1v1h2v1h5v-1h2v-1h1v-1h1v-1h1V96h2v9h-1Zm-3-16h4v3h-4V89Zm-2,10v1h-1v1h-1v1h-3v-1h-2V99h-1V96h1V95h1V94h1V93h3v1h1v1h1v2h1v1h-1v1Z" transform="translate(-542 -84)"/>
+  <path id="fill" class="cls-4" d="M568,106h-1v3h-5v-1h4v-4h1v1h1v1Zm-22,4v-1h2v-1h3v1h11v1H546Zm-1-3h1v2h-1v-2Zm-1-3h1v3h-1v-3Zm22-10h-3v1h-1v3h-1V94h-1V93h6V91h1v10h-1V94Zm-8-1V92h-5v1h-2v1h-1v7h-1V95h-3v1h-1V88h1V87h15v1h-1v1h-1v2h1v2h-2Zm-7,9h-1v-1h1v1Zm2,1h-2v-1h2v1Zm4,0h1v1h-1v1h-1v-1h-3v-1h4Zm2-1v-1h2v1h-1v1h-2v-1h1Zm-15-2V96h1v4h-1Zm22-12h1v2h-1V88Zm-2-1h2v1h-2V87Z" transform="translate(-542 -84)"/>
+</svg>

@@ -1,0 +1,38 @@
+<svg id="gb.svg" xmlns="http://www.w3.org/2000/svg" width="16" height="11" viewBox="0 0 16 11">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00247d;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #cf142b;
+      }
+
+      .cls-5 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 1px;
+        opacity: 0.35;
+      }
+    </style>
+  </defs>
+  <rect id="Base_flag_GB" class="cls-1" width="16" height="11"/>
+  <path id="Rectangle_5_copy_5" data-name="Rectangle 5 copy 5" class="cls-2" d="M342.554,139.942L342,139.065l15.446-10.071,0.56,0.877Z" transform="translate(-342 -129)"/>
+  <path id="Rectangle_5_copy_5-2" data-name="Rectangle 5 copy 5" class="cls-3" d="M342.461,139.8l-0.373-.585,15.447-10.071,0.373,0.585Z" transform="translate(-342 -129)"/>
+  <path id="Rectangle_5_copy_6" data-name="Rectangle 5 copy 6" class="cls-2" d="M357.393,140l0.556-.87L342.6,129.144l-0.556.87Z" transform="translate(-342 -129)"/>
+  <path id="Rectangle_5_copy_6-2" data-name="Rectangle 5 copy 6" class="cls-3" d="M357.486,139.856l0.371-.58-15.347-9.987-0.371.58Z" transform="translate(-342 -129)"/>
+  <path id="Rectangle_5_copy_4" data-name="Rectangle 5 copy 4" class="cls-2" d="M342.667,135.825v-2.506h14.455v2.506H342.667Z" transform="translate(-342 -129)"/>
+  <rect id="Rectangle_5_copy_3" data-name="Rectangle 5 copy 3" class="cls-4" x="6.656" y="0.563" width="2.469" height="9.812"/>
+  <path id="Rectangle_5_copy_2" data-name="Rectangle 5 copy 2" class="cls-3" d="M342.667,135.407v-1.67h14.455v1.67H342.667Z" transform="translate(-342 -129)"/>
+  <path id="Rectangle_5_copy_2-2" data-name="Rectangle 5 copy 2" class="cls-3" d="M349.069,129.561h1.652v9.814h-1.652v-9.814Z" transform="translate(-342 -129)"/>
+  <rect id="border" class="cls-5" x="1" y="1" width="14" height="9"/>
+</svg>

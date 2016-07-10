@@ -1,0 +1,23 @@
+<svg id="pocket_hover.svg" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #ee4055;
+      }
+
+      .cls-1, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="fill" class="cls-1" d="M184.007,35.988H209V61.012H184.007V35.988Z" transform="translate(-184 -36)"/>
+  <g id="white">
+    <path id="pocket" class="cls-2" d="M4.5,4h16a2,2,0,0,1,2,2v7a8,8,0,0,1-8,8h-4a8,8,0,0,1-8-8V6A2,2,0,0,1,4.5,4Z"/>
+    <path id="fill_arrow" data-name="fill arrow" class="cls-3" d="M5.5,5H19.531a2,2,0,0,1,2,2v5a8,8,0,0,1-8,8H11.5a8,8,0,0,1-8-8V7A2,2,0,0,1,5.5,5Z"/>
+    <path id="arrow" class="cls-4" d="M202.059,45.639c-0.219.562-4.555,4.969-5.564,5.99v0.216l-0.107-.109-0.108.109V51.629c-1.009-1.021-5.346-5.428-5.565-5.99a0.89,0.89,0,0,1,.544-1.209,1.209,1.209,0,0,1,1.31.283c0.289,0.289,3.268,3.361,3.818,3.928,0.55-.568,3.528-3.639,3.818-3.928a1.207,1.207,0,0,1,1.309-.283A0.889,0.889,0,0,1,202.059,45.639Z" transform="translate(-184 -36)"/>
+  </g>
+</svg>

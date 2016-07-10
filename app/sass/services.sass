@@ -1,0 +1,464 @@
+@import variables
+@import functions
+
+p.olive
+	padding: 15px 20px
+	background: #f0f0e7
+	display: none
+	a
+		color: #255081
+		text-decoration: none
+
+.prices-table
+	position: relative
+	margin-top: 65px
+	.price-in
+		position: absolute
+		right: 147px
+		top: -22px
+		font-size: rem(13px)
+	@media #{$mobile}
+		margin-top: 20px
+	.currency-switcher
+		display: flex
+		margin: 12px 0 15px
+		flex-direction: column
+		position: absolute
+		right: -20px
+		top: -40px
+		padding: 6px
+		overflow: hidden
+		height: 10px
+		z-index: 999
+		@media #{$mobile}
+			height: 8px
+		div
+			cursor: pointer
+			width: 100%
+			font-size: rem(13px)
+		div:first-child
+			span
+				border-bottom: 1px dotted black
+
+		&.opened-currency
+			box-sizing: border-box
+			overflow: visible
+			height: auto
+			background: white
+			div:first-child
+				img:last-child
+					visibility: visible
+			img:last-child
+				margin-bottom: 2px
+				visibility: hidden
+
+		@media #{$mobile}
+			font-size: rem(11px)
+
+		img
+			vertical-align: middle
+			&:first-child
+				margin: 0 10px 2px 0
+				@media #{$mobile}
+					margin: 0 5px
+
+
+	table.prices
+		width: 100%
+		font-size: rem(13px)
+
+		tr
+
+			th,
+			td
+				padding: 5px
+				border: 1px solid #ccc
+				text-align: center
+
+				a
+					color: #255081
+					text-decoration: none
+					&:hover
+						text-decoration: underline
+
+			td
+				&:first-child
+					&:not([colspan="3"])
+						text-align: left
+
+		tr.active
+			background: #fffaf0
+
+			td
+				border-color: #d9d3ae
+
+				a
+					font-weight: bold
+
+		.folder.header
+
+		.folder
+			display: none
+			background: #fffaf0
+			&.opened
+				display: table-row
+
+			td
+				padding: 5px 10px
+				border-color: #d9d3ae
+
+			img
+				width: 11px
+				vertical-align: bottom
+
+	.data-wrapper
+		span
+			margin-left: 5px
+			color: #7f7f7f
+			cursor: pointer
+
+		.header
+			position: relative
+			padding: 5px 0
+			border-top: 1px solid #ddd
+			font-size: rem(11px)
+			&.active
+				background: #ffe9bb
+				&:before,
+				&:after
+					background: #ffe9bb
+			&:last-child
+				border-bottom: 1px solid #ddd
+			&:before,
+			&:after
+				position: absolute
+				top: -1px
+				width: 24px
+				height: 100%
+				border-top: 1px solid #ddd
+				content: ''
+			&:before
+				left: -24px
+			&:after
+				right: -24px
+
+		.folder
+			position: relative
+			padding: 5px 0
+			background: #fffaf0
+			font-size: rem(11px)
+			border-top: 1px solid #eae7d2
+			&.active
+				background: #fff3d9
+				&:before,
+				&:after
+					background: #fff3d9
+			&:last-child
+				border-bottom: 1px solid #eae7d2
+				&:before,
+				&:after
+					border-bottom: 1px solid #eae7d2
+			&:before,
+			&:after
+				position: absolute
+				top: -1px
+				width: 24px
+				height: 100%
+				background: #fffaf0
+				border-top: 1px solid #eae7d2
+				content: ''
+			&:before
+				left: -24px
+			&:after
+				right: -24px
+
+
+		table
+			width: 100%
+			font-size: rem(11px)
+
+			tr
+				&:last-child
+					td
+						&:first-child,
+						&:last-child
+							&:before,
+							&:after
+								border-bottom: 1px solid #eae7d2
+				th
+					padding: 20px 0
+
+				td
+					padding: 5px 0
+
+				th,
+				td
+					position: relative
+					font-weight: normal
+					text-align: center
+					background: #fffaf0
+					border: 1px solid #eae7d2
+					&:first-child
+						border-left: none
+					&:last-child
+						border-right: none
+					&:first-child
+						&:before
+							position: absolute
+							top: -1px
+							left: -24px
+							width: 24px
+							height: 100%
+							background: #fffaf0
+							border-top: 1px solid #eae7d2
+							content: ''
+					&:last-child
+						&:after
+							position: absolute
+							top: -1px
+							right: -24px
+							width: 24px
+							height: 100%
+							background: #fffaf0
+							border-top: 1px solid #eae7d2
+							content: ''
+
+					img
+						width: 11px
+						vertical-align: bottom
+
+.calc-header
+	margin: 40px 0 20px
+	text-align: center
+	font-size: rem(16px)
+	font-weight: bold
+	@media #{$mobile}
+		font-size: rem(11px)
+
+.calc-wrapper
+	position: relative
+	background: #eae7d2
+	padding: 30px 13px 110px 0
+	font-size: rem(13px)
+	@media #{$mobile}
+		margin-bottom: 20px
+		&:before,
+		&:after
+			position: absolute
+			top: -1px
+			width: 24px
+			height: 100%
+			background: #eae7d2
+			content: ''
+		&:before
+			left: -24px
+		&:after
+			right: -24px
+
+
+	.service
+		margin: 0
+		padding-left: 30px !important
+
+		li
+			font-weight: bold
+
+			.li-wrapper
+				display: flex
+
+				.selector-wrapper
+					position: relative
+					display: flex
+					width: 100%
+					flex-wrap: wrap
+					font-weight: normal
+
+
+
+					div
+						height: 23px
+						display: flex
+						margin-bottom: 20px
+						padding-right: 5px
+						width: 33.3%
+						box-sizing: border-box
+
+						@media #{$mobile}
+							padding-right: 0
+							width: 100%
+
+						.logo_date
+							display: flex
+							justify-content: center
+							width: 33px
+							background: white
+							border: 1px solid #c3c3c3
+							border-left: none
+							box-sizing: border-box
+
+							img
+								margin: 2px 0 0 6px
+								@media #{$mobile}
+									margin-right: 6px
+
+						input.datepicker
+							width: 139px
+							@media #{$mobile}
+								width: 100%
+
+						input,
+						select
+					  	border: 1px solid #c3c3c3
+
+						select
+							width: 171px
+							height: 23px
+							@media #{$mobile}
+								width: 100%
+
+						img
+							margin-left: 3px
+							align-self: flex-start
+							cursor: pointer
+
+				.delete
+					align-self: center
+
+	.attach-brief
+		margin-left: 25px
+		margin-top: -15px
+		.inputfile
+			width: 0.1px
+			height: 0.1px
+			opacity: 0
+			overflow: hidden
+			position: absolute
+			z-index: -1
+		label
+			margin-left: 18px
+			border-radius: 3px
+			padding: 6px 20px
+			background: #797066
+			color: #eae7d2
+			cursor: pointer
+			font-size: rem(12px)
+			&:hover
+				background: #9c9084
+		@media #{$mobile}
+			margin-right: 0
+			margin-bottom: 12px
+			font-size: rem(11px)
+
+	.add-service
+		margin-top: 34px
+		margin-left: 28px
+		color: #255081
+		font-size: rem(14px)
+		cursor: pointer
+		@media #{$mobile}
+			margin-bottom: 34px
+
+		span
+			border-bottom: 1px dotted #255081
+
+	.total-price
+		display: flex
+		flex-direction: column
+		align-items: flex-end
+
+		.price
+			width: 147px
+			span
+				&:first-child
+					font-size: rem(14px)
+				&:last-child
+					font-size: rem(21px)
+
+
+
+		.currency-switcher
+			margin: 6px 0 15px
+			position: absolute
+			right: 0
+			height: 10px
+			padding: 6px
+			overflow: hidden
+			border: 1px solid transparent
+			z-index: 5
+			div:first-child
+				span
+					border-bottom: 1px dotted #000
+			&.opened-currency
+				border: 1px solid #c3c3c3
+				box-sizing: border-box
+				background: white
+				overflow: visible
+				height: auto
+				div:first-child
+					img:last-child
+						visibility: visible
+				img:last-child
+					visibility: hidden
+
+			div
+				cursor: pointer
+
+			img
+				&:first-child
+					margin: 0px 10px 0 0
+					position: relative
+					top: 1px
+
+		.order
+			margin-top: 45px
+			padding: 6px 20px
+			display: inline-block
+			color: #eae7d2
+			background: #797066
+			border-radius: 3px
+			text-decoration: none
+			cursor: pointer
+			font-size: rem(12px)
+			position: absolute
+			right: 40px
+			&:hover
+				background: #9c9084
+			&.active
+				color: #797066
+				background: linear-gradient(#f9f7f2, #eae7d2)
+				&:hover
+					background: #EAE7D2
+			&:last-child
+				margin-right: 0
+			@media #{$mobile}
+				margin-right: 0
+				margin-bottom: 12px
+				font-size: rem(11px)
+
+.files
+	display: flex
+	padding: 0 35px
+	color: #255081
+	font-size: rem(13px)
+	justify-content: space-between
+	@media #{$mobile}
+		flex-direction: column
+		font-size: rem(11px)
+
+	.left-col,
+	.right-col
+		width: 50%
+		@media #{$mobile}
+			width: 100%
+
+		img
+			margin-top: 8px
+			margin-right: 14px
+			margin-bottom: 8px
+			vertical-align: middle
+
+		a
+			display: block
+			text-decoration: none
+			color: inherit
+			cursor: pointer

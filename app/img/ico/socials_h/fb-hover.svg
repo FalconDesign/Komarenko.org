@@ -1,0 +1,24 @@
+<svg id="fb_color.svg" xmlns="http://www.w3.org/2000/svg" width="28" height="27" viewBox="0 0 28 27">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #3d5a98;
+      }
+
+      .cls-3 {
+        fill: #3e362f;
+      }
+    </style>
+  </defs>
+  <path id="icon" class="cls-1" d="M614,64h3v1h1v1h-1v1h-1v1h-2v6h-1v1h-3V68h-3V65h1V64h1V61h1V58h2V57h4v1h1v1h1v1h-1v1h-3v1h-1v2h1Z" transform="translate(-598 -53)"/>
+  <path id="fill" class="cls-2" d="M623,75v2h-1v1h-1V77h-2v1H608V77h-4v1h-1V77h-1V74h-1V72h1V65h-1V59h1V57h1V56h4V55h1V54h3v1h11v1h1v4h1V70h-1v2h1v3h-1Zm-7-17V57h-4v1h-2v3h-1v3h-1v1h-1v3h3v7h3V74h1V68h2V67h1V66h1V65h-1V64h-4V62h1V61h3V60h1V59h-1V58h-1Z" transform="translate(-598 -53)"/>
+  <path id="border" class="cls-3" d="M626,78v1h-2v1H611V79h-2v1h-6V79h-1v1h-1V79h-3V76h1V73h1V69h-1V61h1V59h-2V58h1V56h1V54h6V53h16v1h3v6h1v3h-1v1h1v8h-1v2h1v3h-1v1h1Zm-26-1h-1v1h1V77Zm24-3V72h-1V70h1V60h-1V56h-1V55H611V54h-3v1h-1v1h-4v1h-1v2h-1v6h1v7h-1v2h1v3h1v1h1V77h4v1h11V77h2v1h1V77h1V75h1V74Z" transform="translate(-598 -53)"/>
+</svg>

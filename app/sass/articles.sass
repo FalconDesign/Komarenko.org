@@ -1,0 +1,88 @@
+@import variables
+@import functions
+
+.articles-trigger
+	padding: 8px 6px
+	font-size: rem(16px)
+	// font-family: verdana;
+	border-top: 1px solid #eae7d2
+	cursor: pointer
+	@media #{$mobile}
+		font-size: rem(14px)
+	img
+		margin-right: 11px
+		vertical-align: middle
+
+.articles-wrapper
+	margin-top: 25px
+	@media #{$mobile}
+		margin-top: 20px
+	.article
+		margin-bottom: 47px
+		display: flex
+		flex-direction: column
+		justify-content: space-between
+		@media #{$mobile}
+			margin-bottom: 20px
+			flex-direction: row
+		.header
+			display: flex
+			flex-direction: column
+			.title
+				font-size: rem(21px)
+				font-weight: bold
+				@media #{$mobile}
+					font-family: tahoma
+					font-size: rem(12.6px)
+			.date
+				margin-top: 14px
+				margin-bottom: 11px
+				font-size: rem(11px)
+				color: #7a7a7a
+				@media #{$mobile}
+					margin-top: 10px
+					margin-bottom: 0
+					font-family: tahoma
+					font-size: rem(10px)
+		.wrapper
+			display: flex
+			@media #{$mobile}
+				margin-left: 20px
+			img
+				width: 200px
+				object-fit: cover
+				@media #{$mobile}
+					width: 25vw
+					height: 10vh
+			.text
+				margin-left: 30px
+				font-size: rem(12.5px)
+				line-height: 16px
+				@media #{$mobile}
+					display: none
+				.more
+					margin-left: 15px
+					color: #255081
+					text-decoration: underline
+	.pagination
+		margin-top: 90px
+		margin-bottom: 20px
+		text-align: center
+		font-size: rem(18px)
+		color: #7f7f7f
+		@media #{$mobile}
+			margin-top: 20px
+			font-size: rem(12px)
+		span
+			margin: 0 8px
+			cursor: pointer
+			&.active
+				font-size: rem(24px)
+				font-weight: bold
+				color: #000
+				@media #{$mobile}
+					font-size: rem(17px)
+			&.all
+				font-size: rem(16px)
+				@media #{$mobile}
+					font-size: rem(11px)

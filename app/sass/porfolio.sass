@@ -1,0 +1,123 @@
+@import variables
+@import functions
+
+.checkbox-header
+	margin: 39px 0 20px 36px
+	display: flex
+	align-items: center
+	justify-content: flex-start
+	@media #{$mobile}
+		position: relative
+		margin: 0
+		padding: 5px 0
+		background: #ffe9bb
+		border-top: 1px solid #ddd
+		border-bottom: 1px solid #ddd
+		&:before,
+		&:after
+			position: absolute
+			top: -1px
+			width: 24px;
+			height: 100%
+			background: #ffe9bb
+			border-top: 1px solid #ddd
+			border-bottom: 1px solid #ddd
+			content: ''
+		&:before
+			left: -24px
+		&:after
+			right: -24px
+
+	h2
+		margin: 0 !important
+
+	span
+		margin-left: 12px
+		color: #f01d23
+		font-size: rem(12.5px)
+		@media #{$mobile}
+			display: none
+
+.checkbox-wrapper
+	padding: 10px 0
+	border: 1px solid #c3c3c3
+	overflow: auto
+	@media #{$mobile}
+		padding: 0
+		border: none
+		overflow: visible
+
+	div
+		padding: 1px 10px
+		width: 100%
+		font-size: rem(12.5px)
+		box-sizing: border-box
+		display: flex
+		&:hover
+			background: #f0f0e7
+		@media #{$mobile}
+			position: relative
+			padding: 5px 0
+			font-size: rem(11px)
+			border-bottom: 1px solid #ddd
+			&:hover
+				background: #fff
+			&:before,
+			&:after
+				position: absolute
+				bottom: -1px
+				width: 24px;
+				height: 1px;
+				background: #ddd
+				content: ''
+			&:before
+				left: -24px
+			&:after
+				right: -24px
+			&:last-child
+				border-bottom: none
+				&:before,
+				&:after
+					display: none
+
+		input
+			margin-right: 10px
+			outline: none
+			vertical-align: middle
+
+		span
+			color: #7f7f7f
+
+		label
+			width: 100%
+
+.render-portfolio
+	text-align: center
+	@media #{$mobile}
+		text-align: right
+
+	.btn
+		display: inline-block
+		margin: 27px 0
+		color: #eae7d2
+		background: #797066
+		font-size: rem(12px)
+		padding: 6px 20px
+		margin-right: 24px
+		border-top: 1px solid #847c71
+		border-radius: 3px
+		text-decoration: none
+		cursor: pointer
+		&:hover
+			background: #9c9084
+		&.active
+			color: #797066
+			background: linear-gradient(#f9f7f2, #eae7d2)
+			&:hover
+				background: #EAE7D2
+		&:last-child
+			margin-right: 0
+		@media #{$mobile}
+			margin-right: 0
+			margin-bottom: 12px
+			font-size: rem(11px)

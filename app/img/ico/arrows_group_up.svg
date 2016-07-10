@@ -1,0 +1,13 @@
+<svg id="arrows_group_up.svg" xmlns="http://www.w3.org/2000/svg" width="42" height="6" viewBox="0 0 42 6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #eae7d2;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="_3" data-name="3" class="cls-1" d="M41,99V98h1V97h1V96h1V95h1v1h1v1h1v1h1v1h1v2H47v-1H46V99H45V98H44v1H43v1H42v1H40V99h1Z" transform="translate(-40 -95)"/>
+  <path id="_2" data-name="2" class="cls-1" d="M57,99V98h1V97h1V96h1V95h1v1h1v1h1v1h1v1h1v2H63v-1H62V99H61V98H60v1H59v1H58v1H56V99h1Z" transform="translate(-40 -95)"/>
+  <path id="_1" data-name="1" class="cls-1" d="M74,99V98h1V97h1V96h1V95h1v1h1v1h1v1h1v1h1v2H80v-1H79V99H78V98H77v1H76v1H75v1H73V99h1Z" transform="translate(-40 -95)"/>
+</svg>

@@ -1,0 +1,23 @@
+@import variables
+@import functions
+
+.author
+	display: flex
+	align-items: flex-start
+	padding: 25px 0
+	border-top: 1px solid #ece8d2
+	@media #{$mobile}
+		flex-direction: column
+		align-items: center !important
+	img
+		margin-right: 25px
+		width: 180px
+		height: auto
+		@media #{$mobile}
+			margin: 0
+
+	.info
+		.header
+			font-weight: bold
+			font-size: rem(16px)
+			text-align: center

@@ -1,0 +1,140 @@
+@import variables
+@import functions
+
+.right-col
+	.wrapper
+
+		.contacts
+			display: flex
+			@media #{$mobile}
+				flex-direction: column
+
+			.left-col
+				margin-right: 45px
+				width: 192px
+				flex-shrink: 0
+				@media #{$mobile}
+					order: 1
+
+				.header
+					margin-bottom: 10px
+					font-weight: bold
+					font-size: rem(16px)
+					@media #{$mobile}
+						margin-bottom: 5px
+						font-size: rem(11px)
+
+				p
+					margin-left: 20px
+					margin-bottom: 30px
+					font-size: rem(13px)
+					text-indent: 0
+					@media #{$mobile}
+						margin-top: 0
+						margin-left: 7px
+						margin-bottom: 30px
+						font-size: rem(10.5px)
+
+
+			.right-col
+				display: flex
+				flex-direction: column
+				width: 100%
+
+				label
+					margin-bottom: 10px
+					font-size: rem(13px)
+					@media #{$mobile}
+						font-size: rem(11px)
+
+					a
+						text-decoration: none
+						color: #255081
+						&:hover
+							text-decoration: underline
+
+				input
+					margin-left: 5px
+					padding: 10px
+					margin-bottom: 15px
+					width: 100%
+					box-sizing: border-box
+					font-size: rem(13px)
+					@media #{$mobile}
+						margin-left: 0
+						font-size: rem(11px)
+
+				textarea
+					margin-left: 5px
+					padding: 10px
+					margin-bottom: 15px
+					box-sizing: border-box
+					font-size: rem(13px)
+					@media #{$mobile}
+						margin-left: 0
+						font-size: rem(11px)
+
+				select
+					margin-left: 5px
+					width: 150px
+					font-size: rem(13px)
+					@media #{$mobile}
+						margin-left: 0
+						font-size: rem(11px)
+
+				.buttons
+					display: flex
+					justify-content: flex-end
+					margin-top: 30px
+					@media #{$mobile}
+						align-items: flex-end
+						margin-bottom: 18px
+						flex-direction: column
+					.attach-brief
+						margin: 3px 23px 0 0
+						@media #{$mobile}
+							margin: 0 0 13px 0
+
+						.inputfile
+							width: 0.1px
+							height: 0.1px
+							opacity: 0
+							overflow: hidden
+							position: absolute
+							z-index: -1
+						label
+							margin-left: 18px
+							border-radius: 3px
+							padding: 6px 20px
+							background: #797066
+							color: #eae7d2
+							cursor: pointer
+							font-size: rem(12px)
+							&:hover
+								background: #9c9084
+					.btn
+						color: #eae7d2
+						background: #797066
+						font-size: rem(12px)
+						padding: 6px 20px
+						margin-right: 24px
+						border-radius: 3px
+						text-decoration: none
+						cursor: pointer
+						&:hover
+							background: #9c9084
+						&.active
+							color: #797066
+							background: linear-gradient(#f9f7f2, #eae7d2)
+							&:hover
+								background: #EAE7D2
+						&:last-child
+							margin-right: 0
+						@media #{$mobile}
+							margin-right: 0
+							margin-bottom: 12px
+							font-size: rem(11px)
+
+		.map
+			width: 100%
+			height: 320px

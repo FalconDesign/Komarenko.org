@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="6" height="5" viewBox="0 0 6 5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff7f26;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="orange_arrow.svg" class="cls-1" d="M32,24V23h1v1H32Zm-1,1V24h1v1H31Zm-1,1V25h1v1H30Zm-3-2h3v1H27V24Zm4-2h1v1H31V22Zm-4,1V22h3v1H27Zm3-2h1v1H30V21Z" transform="translate(-27 -21)"/>
+</svg>

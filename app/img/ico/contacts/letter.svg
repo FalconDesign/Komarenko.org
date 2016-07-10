@@ -1,0 +1,19 @@
+<svg id="letter.svg" xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c67200;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #373028;
+      }
+    </style>
+  </defs>
+  <path id="orange" class="cls-1" d="M458,61V55h2v1h1v1h1v1h1v1h3V58h2V57h1V56h1V55h1v6H458Zm12-7h-1v1h-2v1h-1v1h-3V56h-1V55h-1V54h-1V53h-1V52h-1V51h13v2h-1v1Z" transform="translate(-457 -50)"/>
+  <path id="brown" class="cls-2" d="M471,62H457V50h16V62h-2Zm0-11H458v1h1v1h1v1h1v1h1v1h1v1h3V56h1V55h2V54h1V53h1V51Zm0,4h-1v1h-1v1h-1v1h-2v1h-3V58h-1V57h-1V56h-1V55h-2v6h13V55Z" transform="translate(-457 -50)"/>
+</svg>

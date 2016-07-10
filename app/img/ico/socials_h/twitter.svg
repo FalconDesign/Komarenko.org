@@ -1,0 +1,29 @@
+<svg id="twitter.svg" xmlns="http://www.w3.org/2000/svg" width="31" height="28" viewBox="0 0 31 28">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2c2c2c;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #262524;
+      }
+
+      .cls-3 {
+        fill: #3e362f;
+      }
+
+      .cls-4 {
+        fill: #c67200;
+      }
+    </style>
+  </defs>
+  <path id="border" class="cls-1" d="M542,23h5v1h-5V23Zm6,0h5v1h-5V23Zm7,0h12v1H555V23Zm13,0h2v1h-2V23Zm-28,1h29v1H540V24Zm2,1h2V39h-2V25Zm-1,0h1v3h-1V25Zm3,0h1v1h-1V25Zm-2,22h1v2h-1V47Zm1-8h1V50h-1V39Zm1-6h1V45h-1V33Zm5-8h6v1h-6V25Zm12,0h2v1h-2V25Zm6,0h2v1h-2V25Zm1,1h1V45h-1V26Zm1,2h1v2h-1V28Zm-2,7h1v2h-1V35Zm2-4h1v8h-1V31Zm0,9h1v3h-1V40Zm1-9h1v3h-1V31Zm0,4h1v1h-1V35Zm-3,10h3v2h-3V45Zm0,2h2v1h-2V47Zm-20,1h23v1H547V48Zm1-1h8v1h-8V47Zm14,0h2v1h-2V47Zm1-1h1v1h-1V46Zm-2,3h7v1h-7V49Zm4,1h3v1h-3V50Zm-21-1h6v1h-6V49Zm0-1h2v1h-2V48Z" transform="translate(-540 -23)"/>
+  <path id="stroke" class="cls-2" d="M566,33v1h-1v5h-1v1h-1v1h-1v2h-2v1h-2v1h-3v1h-8V45h6V44h4V43h1V42h2V41h1V40h1V38h1V36h1V33h1V31h-2V30h-2V29h-3v1h-1v2h-1v2h-1V33h-3V32h3V30h1V29h1V28h7v1h1v1h1v1h1v2h-1Zm-16-2h2v1h-2V31Zm-1-1h1v1h-1V30Zm-2,2h1v2h1v1h-2V34h-1V29h3v1h-2v2Zm1,4v2h1v1h1v1h2v2h-1v1h-3v1h-1v1h-1V43h1V42h2V40h-1V39h-1V37h-1V35h1v1h1Z" transform="translate(-540 -23)"/>
+  <path id="fill" class="cls-3" d="M567,45v3h-3V46h-1v1h-1v1h-6V47h-8v1h-1v1h-1V48h-2V45h1V33h-1V26h1V25h4v1h6V25h6v1h2V25h4v1h1v9h-1v2h1v8h-1Zm0-14h-1V30h-1V29h-1V28h-7v1h-1v1h-1v2h-3V31h-2V30h-1V29h-3v5h1v1h-1v2h1v2h1v1h1v2h-2v1h-1v2h1v1h8V45h3V44h2V43h2V41h1V40h1V39h1V34h1V33h1V31Z" transform="translate(-540 -23)"/>
+  <path id="icon" class="cls-4" d="M564,33v3h-1v2h-1v2h-1v1h-1v1h-2v1h-1v1h-4v1h-6V44h1V43h3V42h1V40h-2V39h-1V38h-1V36h-1V35h2V34h-1V32h-1V30h2v1h1v1h2v1h3v1h1V32h1V30h1V29h3v1h2v1h2v2h-1Z" transform="translate(-540 -23)"/>
+</svg>

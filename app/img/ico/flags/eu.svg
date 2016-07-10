@@ -1,0 +1,24 @@
+<svg id="eu.svg" xmlns="http://www.w3.org/2000/svg" width="16" height="11" viewBox="0 0 16 11">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #039;
+      }
+
+      .cls-2 {
+        fill: #fc0;
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 1px;
+        opacity: 0.15;
+      }
+    </style>
+  </defs>
+  <rect id="bg" class="cls-1" width="16" height="11"/>
+  <path id="stars" class="cls-2" d="M349.579,115.692h0.842v0.846h-0.842v-0.846Zm3.368,3.385h0.842v0.846h-0.842v-0.846Zm-3.368,3.385h0.842v0.846h-0.842v-0.846Zm-3.368-3.385h0.842v0.846h-0.842v-0.846Zm5.894-2.539h0.842v0.847h-0.842v-0.847Zm0,5.077h0.842v0.847h-0.842v-0.847Zm-5.052-5.077H347.9v0.847h-0.842v-0.847Zm0,5.077H347.9v0.847h-0.842v-0.847Z" transform="translate(-342 -114)"/>
+  <rect id="border" class="cls-3" x="1" y="1" width="14" height="9"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="21" viewBox="0 0 28 21">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3e362f;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="quotes_open.svg" class="cls-1" d="M198,35V34h1V32h1V31h1V29h1V28h1V27h1V26h1V25h2V24h1V23h2V22h1v1h1v1h-1v1h-1v1h-2v1h-1v1h-1v1h-1v1h-1v2h-1v2h5v2h1v2h-1v3h-1v1h-2v1h-5V42h-1V40h-1V36h1V35h-1Zm15-3h1V31h1V29h1V28h1V27h1V26h1V25h2V24h1V23h2V22h1v1h1v1h-1v1h-1v1h-2v1h-1v1h-1v1h-1v1h-1v2h-1v2h5v2h1v2h-1v3h-1v1h-2v1h-5V42h-1V40h-1V36h1V35h-1V34h1V32Z" transform="translate(-198 -22)"/>
+</svg>

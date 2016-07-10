@@ -1,0 +1,24 @@
+<svg id="twitter_color.svg" xmlns="http://www.w3.org/2000/svg" width="31" height="28" viewBox="0 0 31 28">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #49c8f5;
+      }
+
+      .cls-3 {
+        fill: #3e362f;
+      }
+    </style>
+  </defs>
+  <path id="icon" class="cls-1" d="M658,33v3h-1v2h-1v2h-1v1h-1v1h-2v1h-1v1h-4v1h-6V44h1V43h3V42h1V40h-2V39h-1V38h-1V36h-1V35h2V34h-1V32h-1V30h2v1h1v1h2v1h3v1h1V32h1V30h1V29h3v1h2v1h2v2h-1Z" transform="translate(-634 -23)"/>
+  <path id="fill" class="cls-2" d="M662,37v8h-1v3h-3V46h-1v1h-1v1h-6V47h-8v1h-1v1h-1V48h-2V45h1V33h-1V26h1V25h4v1h6V25h6v1h2V25h4v1h1v9h-1v2h1Zm-3-6h-2V30h-2V29h-3v1h-1v2h-1v2h-1V33h-3V32h-2V31h-1V30h-2v2h1v2h1v1h-2v1h1v2h1v1h1v1h2v2h-1v1h-3v1h-1v1h6V44h4V43h1V42h2V41h1V40h1V38h1V36h1V33h1V31Z" transform="translate(-634 -23)"/>
+  <path id="border" class="cls-3" d="M665,35v1h-1v3h-1v1h1v3h-1v2h1v2h-1v1h1v1h-2v2h-3V50h-4V49H644v1h-7V49h-1V47h1V39h-1V28h-1V25h-1V24h2V23h5v1h1V23h5v1h2V23h12v1h1V23h2v1h-1v4h1v2h-1v1h2v3h-1v1h1Zm-3,2h-1V35h1V26h-1V25h-4v1h-2V25h-6v1h-6V25h-4v1h-1v7h1V45h-1v3h2v1h1V48h1V47h8v1h6V47h1V46h1v2h3V45h1V37Z" transform="translate(-634 -23)"/>
+</svg>

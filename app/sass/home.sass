@@ -1,0 +1,340 @@
+@import variables
+@import functions
+
+.page-wrapper
+	.right-col
+		> .wrapper
+
+			h1
+				margin: 6px 0 0 36px
+				font-size: rem(21px)
+				@media #{$mobile}
+					margin: 0
+					margin-bottom: 11px
+					font-size: rem(11px)
+					text-align: center
+
+			h2
+				margin: 39px 0 20px 36px
+				font-size: rem(16px)
+				@media #{$mobile}
+					margin: 0
+					margin-bottom: 11px
+					font-size: rem(11px)
+					text-align: center
+
+			p
+				margin: 18px 0
+				font-size: rem(13px)
+				text-indent: 25px;
+				@media #{$mobile}
+					font-size: rem(11px)
+
+			ul
+				padding-left: 36px
+				font-size: rem(13px)
+				list-style-image: url(../img/ico/orange_arrow.svg)
+				&.grey
+					padding: 20px 36px
+					background: #f5f5f5
+					list-style-image: url(../img/ico/arrow_right_grey.svg)
+					border: 1px solid #ebebeb
+				@media #{$mobile}
+					padding-left: 14px
+					font-size: rem(11px)
+
+				li
+					margin: 18px 0
+					padding-left: 12px
+
+			ol
+				padding-left: 36px
+				font-size: rem(13px)
+				@media #{$mobile}
+					padding-left: 14px
+					font-size: rem(11px)
+
+				li
+					margin: 18px 0
+					padding-left: 12px
+
+			.list-type4
+				display: flex
+				width: 85%
+				margin: 0 auto
+				flex-wrap: wrap
+				font-size: rem(14px)
+				justify-content: space-around
+				@media #{$mobile}
+					font-size: rem(11px)
+					flex-direction: column
+
+				div
+					margin: 9px 0
+					padding-right: 10px
+					width: 33.33%
+					box-sizing: border-box
+					&:before
+						display: inline-block
+						margin-right: 15px
+						width: 10px
+						height: 10px
+						background-image: url(../img/ico/check.svg)
+						content: ''
+					@media #{$mobile}
+						margin-right: 0
+						padding-right: 0
+						width: 100%
+
+			.video
+				margin-bottom: 35px
+				width: 100%
+				height: 390px
+				@media #{$mobile}
+					margin-bottom: 25px
+					height: 35vh
+
+			.trigger
+				display: flex
+				justify-content: space-between
+				align-items: center
+				margin: 39px 0 20px 41px
+				@media #{$mobile}
+					margin: 0
+					margin-bottom: 11px
+
+				h2
+					margin: 0
+					cursor: pointer
+					&.collapsed
+
+					img
+						vertical-align: middle
+
+					span
+						border-bottom: 2px dashed #ccc
+
+				.reload
+					cursor: pointer
+					&:hover
+						filter: grayscale(100%)
+						opacity: 0.5
+
+			.random-portfolio
+				padding: 14px
+				padding-top: 0
+
+				.tags
+					font-family: 'Calibri'
+					font-size: rem(14px)
+					color: #7f7f7f
+					@media #{$mobile}
+						font-size: rem(11px)
+
+					div
+						display: inline-block
+						margin-right: 9px
+						border-bottom: 1px dashed #ccc
+						cursor: pointer
+						@media #{$mobile}
+							&:not(:first-child)
+								display: none
+
+				.wrapper
+					display: flex
+					justify-content: space-between
+					flex-wrap: wrap
+
+					.item
+						margin: 15px 0
+						width: 25%
+						text-align: center
+						@media #{$mobile}
+							width: 100%
+							&:not(:first-child)
+								display: none
+
+						.name
+							font-size: rem(12.3px)
+							margin-bottom: 16px
+
+						img
+							width: 85px
+							height: 120px
+							object-fit: cover
+
+				.all-portfolio
+					text-align: right
+
+					a
+						color: #255081
+						font-size: rem(12px)
+
+			.partners-slider
+				display: flex
+				align-items: center
+				justify-content: space-between
+
+				.left-arrow,
+				.right-arrow
+					position: relative
+					flex-shrink: 0
+					padding: 104px 0
+					cursor: pointer
+					&:hover
+						filter: grayscale(100%)
+						opacity: 0.5
+
+				.wrapper
+					display: flex
+					position: relative
+					margin: 0 40px
+					width: 100%
+					height: 240px
+					overflow: hidden
+					@media #{$mobile}
+						width: 108px
+
+					.container
+						display: flex
+						flex-wrap: wrap
+						height: 240px
+						width: 5000px
+						flex-direction: column
+						align-content: flex-start
+						@media #{$mobile}
+							align-items: center
+
+						img
+							margin: 10px 4px
+							cursor: pointer
+							width: 100px
+							height: 60px
+
+			.news-slider
+				position: relative
+				display: flex
+				align-items: center
+				justify-content: space-between
+				@media #{$mobile}
+					margin-bottom: 25px
+
+				.left-arrow,
+				.right-arrow
+					flex-shrink: 0
+					padding: 104px 0
+					cursor: pointer
+					&:hover
+						filter: grayscale(100%)
+						opacity: 0.5
+
+				.wrapper
+					margin: 0 40px
+					width: 528px
+					overflow: hidden
+					@media #{$mobile}
+						width: 80vw
+						margin: 0 auto
+
+					.container
+						width: 5000px
+						display: flex
+						flex-wrap: wrap
+						justify-content: flex-start
+
+						.item
+							position: relative
+							width: 528px
+							height: 265px
+							@media #{$mobile}
+								width: 80vw
+								height: 35vh
+
+							img
+								width: 100%
+								height: 100%
+								object-fit: cover;
+
+							.text
+								position: absolute
+								left: 0
+								bottom: 0
+								display: flex
+								padding: 27px
+								box-sizing: border-box
+								justify-content: center
+								align-items: center
+								width: 100%
+								background: #5c5349
+								color: #fff
+								font-weight: bold
+								font-size: rem(16px)
+								@media #{$mobile}
+									padding: 10px 0
+									font-weight: normal
+									font-size: rem(9px)
+
+			.new-materials
+				padding: 10px
+
+				.wrapper
+					display: flex
+					flex-wrap: wrap
+					justify-content: space-between
+
+					.item
+						display: flex
+						flex-direction: column
+						align-items: center
+						margin: 3px
+						padding: 10px
+						width: 24%
+						border: 1px solid #eae7d2
+						box-sizing: border-box
+						cursor: pointer
+						&:hover
+							background: #f0f0e7
+						@media #{$mobile}
+							margin: 10px 0
+							padding: 0
+							width: 100%
+							height: 38px
+							flex-direction: row
+							justify-content: space-between
+							border: none
+
+						img
+							width: 100%
+							max-height: 124px
+							object-fit: cover
+							@media #{$mobile}
+								width: auto
+								height: 100%
+								max-height: 100%
+								order: 1
+
+						.title
+							margin: 20px 0
+							font-size: rem(12px)
+							text-align: center
+							@media #{$mobile}
+								margin: 0
+								text-align: left
+
+							.date
+								display: none
+								margin-top: 5px
+								margin-left: 2px
+								font-family: tahoma
+								color: #6f6f6f
+								font-size: rem(9px)
+								@media #{$mobile}
+									display: block
+
+				.all-materials
+					text-align: right
+					padding: 8px 0 5px
+
+					a
+						color: #255081
+						font-size: rem(12px)

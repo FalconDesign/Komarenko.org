@@ -1,0 +1,18 @@
+$desktop-1024: 945px
+$desktop-1280: 958px
+
+$mobile: "only screen and (max-width: 945px)"
+$desktop: "only screen and (min-width: 946px) and (max-width: 1280px)"
+$wide: "only screen and (min-width: 1281px)"
+$wide-1024: "only screen and (max-width: 1024px)"
+
+.hidden
+	display: none
+
+.d-hide
+	@media only screen and (min-width: 946px)
+		display: none !important
+
+.m-hide
+	@media #{$mobile}
+		display: none !important
