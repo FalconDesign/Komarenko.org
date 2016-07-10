@@ -1,8 +1,10 @@
 <?php
 
-require_once 'scripts/connect.php';
 require_once 'scripts/lang.php';
+require_once 'scripts/connect.php';
+
 ?>
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -19,8 +21,6 @@ require_once 'scripts/lang.php';
 	<meta name="mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 </head>
-
-
 
 <body>
 	<div id="mobile_menu">
