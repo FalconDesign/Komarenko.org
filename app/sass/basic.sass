@@ -58,13 +58,13 @@ header
 			width: 64px
 			height: 100%
 			flex-shrink: 0
+			margin-right: 12px
 			@media #{$mobile}
 				width: 47px
 				order: 1
 
 			img
 				width: 64px
-				margin-left: -12px
 				@media #{$mobile}
 					width: auto
 					height: 100%
@@ -124,7 +124,8 @@ header
 								border-color: #797066
 
 
-
+				@media #{$wide}
+					right: -137px
 				@media #{$mobile}
 					display: none
 
