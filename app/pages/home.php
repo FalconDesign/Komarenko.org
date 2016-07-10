@@ -8,7 +8,11 @@ while ($result = mysql_fetch_array($get_filling)) {
 		case 'content':
 			$text[] = $result[1];
 			break;
-		case '...':
+		case 'header':
+			$head[] = $result[1];
+			break;
+		case 'link':
+			$link[] = $result[1];
 			break;
 	}
 }
@@ -18,26 +22,20 @@ while ($result = mysql_fetch_array($get_filling)) {
 <?= $text[0] ?>
 
 <div class="trigger" data-arrow="random-portfolio">
-	<h2><img src="img/ico/plus_black.svg" alt="minus"> <span>Случайные работы из портфолио</span></h2>
+	<h2><img src="img/ico/plus_black.svg" alt="minus"> <span><?= $head[0] ?></span></h2>
 	<img src="img/ico/reload.svg" alt="reload" class="reload">
 </div>
 <div class="random-portfolio" data-target="random-portfolio">
 	<div class="tags">
-		<div>Копирайтинг</div>
-		<div>Перевод</div>
-		<div>Рекламные тексты</div>
-		<div>Лендинг</div>
-		<div>Пресс-релиз</div>
-		<div>Описание товаров</div>
-		<div>Нейминги</div>
-		<div>Слоганы</div>
-		<div>Подбор доменного имени</div>
-		<div>Сценарий к видеоролику</div>
-		<div>Речь, спичрайтинг, рапорт</div>
-		<div>Стихотворения</div>
-		<div>Реферат</div>
-		<div>Курсовая</div>
-		<div>Дипломная</div>
+		<?php
+
+		$get_tags = mysql_query("SELECT {$lang} FROM tags");
+
+		while ($tag = mysql_fetch_array($get_tags)) {
+			echo '<div>' . $tag[0] . '</div>';
+		}
+
+		?>
 	</div>
 	<div class="wrapper">
 		<?php
@@ -60,13 +58,13 @@ HTML;
 		?>
 	</div>
 	<div class="all-portfolio">
-		<a href="#">Всё портфолио...</a>
+		<a href="#"><?= $link[0] ?></a>
 	</div>
 </div>
 
 <?= $text[1] ?>
 
-<h2>ТОП-партнеры</h2>
+<h2><?= $head[1] ?></h2>
 <div class="partners-slider">
 	<img src="img/ico/big_slider_arrow_left.svg" alt="arr" class="left-arrow">
 	<div class="wrapper">
@@ -84,7 +82,7 @@ HTML;
 
 <?= $text[2] ?>
 
-<h2>Новости</h2>
+<h2><?= $header[2] ?></h2>
 <div class="news-slider">
 	<img src="img/ico/big_slider_arrow_left.svg" alt="arr" class="left-arrow">
 	<div class="wrapper">
@@ -115,7 +113,7 @@ HTML;
 </div>
 
 <div class="trigger" data-arrow="new-materials">
-	<h2><img src="img/ico/minus_black.svg" alt="minus"> <span>Новые материалы на сайте</span></h2>
+	<h2><img src="img/ico/minus_black.svg" alt="minus"> <span><?= $head[3] ?></span></h2>
 	<img src="img/ico/reload.svg" alt="reload" class="reload" data-reload="new-materials">
 </div>
 <div class="new-materials" data-target="new-materials">
@@ -136,7 +134,7 @@ HTML;
 					<img src="img/articles/{$photo}">
 					<div class="title">
 						{$header}
-						<div class="date">вт, 28.10.2014 - 02:00</div>
+						<div class="date">{$date}</div>
 					</div>
 				</div>
 HTML;
@@ -145,6 +143,6 @@ HTML;
 		?>
 	</div>
 	<div class="all-materials">
-		<a href="#">Смотреть все...</a>
+		<a href="#"><?= $link[1] ?></a>
 	</div>
 </div>
